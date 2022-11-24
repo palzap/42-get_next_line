@@ -10,8 +10,4 @@ Score: 112%
 
 Second submission:  
 21/11/2022  
-Score: 112%
-
-Third submission:  
-23/11/2022  
-Score:
+Score: 125%
