@@ -6,7 +6,7 @@
 /*   By: pealexan <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/15 09:18:58 by pealexan          #+#    #+#             */
-/*   Updated: 2022/11/21 07:52:40 by pealexan         ###   ########.fr       */
+/*   Updated: 2022/11/24 12:07:30 by pealexan         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -79,22 +79,3 @@ char	*get_next_line(int fd)
 	stash = ft_get_stash(line);
 	return (line);
 }
-/*
-#include <fcntl.h>
-
-int	main(void)
-{
-	int	fd;
-	char	*line;
-	
-	fd = open("test1", O_RDONLY);
-//	printf("%s", get_next_line(fd));
-	while (1)
-	{
-		line = get_next_line(fd);
-		if (!line)
-			break ;
-		printf("%s", line);
-	}
-	return (0);
-}*/
